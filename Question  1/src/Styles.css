@@ -1,0 +1,82 @@
+body {
+  display: grid;
+  place-items: center;
+  background: rgb(27, 114, 255);
+}
+
+.main {
+  border: 2px solid white;
+  margin-top: 20%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: rgb(27, 114, 255);
+  border-radius: 10px;
+}
+
+div.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+div.res {
+  position: relative;
+  background-color: rgba(148, 187, 233, 1);
+  margin: 1vw;
+  max-width: 95%;
+  height: 50%;
+  min-width: 400px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+form {
+  position: relative;
+  background: rgba(255, 255, 255, 0.623);
+  width: 60%;
+  height: 50%;
+  min-width: 400px;
+  border: 1px solid rgb(255, 255, 255);
+
+  padding: 20px;
+  border-radius: 10px;
+}
+
+div.ava {
+  position: relative;
+  left: 0;
+  width: 40%;
+  height: 60%;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.i {
+  margin-left: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+div.i > * {
+  display: block;
+  width: 100%;
+}
+button:disabled{
+  color: #686868 !important;
+  box-shadow: none !important;
+  background: white !important;
+  cursor:crosshair;
+}
